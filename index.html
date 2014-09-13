@@ -49,18 +49,27 @@ img {padding:2%; width:50%; max-width:700px;}
 clear:both;text-align:center; position:relative 0 0; border-top: 1px solid #e7e7e7;margin:0% 5%;padding-top:2%;}
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
 
-body {
-    position: relative;
-    margin: 50px auto;
-    text-align:center;
-    color:white;
-    z-index:99;
+    body { position: relative;
+        margin: 50px auto;
+        text-align:center;
+        color:white;
+        z-index:99; }
+    img { width:98%;padding:0 2% 0 0;}
+    .cta { width:90%;padding:10% 5%;vertical-align:middle;}
 }
-img{width:98%;padding:0 2% 0 0;}
-.cta{width:90%;padding:10% 5%;vertical-align:middle;}
-}
+.phone {color:yellow;}
 </style>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54740280-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 </head>
 
@@ -72,9 +81,9 @@ img{width:98%;padding:0 2% 0 0;}
             <h1>
         Keeping Palm Beach County cool since 1984</h1>
         <h2>
-        Call Major Tom:</br>
-        (561) 860 - 6970
-        </h2>
+        Call Major Tom:
+        <p class="phone">(561) 860 - 6970
+        </p>
 </div>
     <div class="footer">
                     <small>Copyright &copy; Major Tom's Air Repair, LLC 2014. All Rights Reserved</small>
